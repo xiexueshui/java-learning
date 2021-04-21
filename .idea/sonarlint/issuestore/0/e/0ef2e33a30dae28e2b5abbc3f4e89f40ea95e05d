@@ -1,0 +1,27 @@
+
+c
+java:S11923"HDefine a constant instead of duplicating this literal "noodles" 4 times.(–Ï¹ûüÿÿÿÿ
+k	java:S114F"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±°¦’şÿÿÿÿ
+=
+java:S1604 "(Make this anonymous inner class a lambda(´¥í`
+>
+java:S1604-"(Make this anonymous inner class a lambda(İ°Ã
+\
+java:S2142	"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106"9Replace this use of System.out or System.err by a logger.(»‰·È
+N	java:S106"9Replace this use of System.out or System.err by a logger.(›î
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Ã…¯Öşÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(  ×ü
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(×³ª¨
+B
+java:S16026",Remove useless curly braces around statement(ô¡»ù
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(¢°ûøÿÿÿÿ
+J
+java:S1611<"/Remove the parentheses around the "c" parameter(İŸ‹Èüÿÿÿÿ
+G
+java:S1602<",Remove useless curly braces around statement(İŸ‹Èüÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(‘¼ûÿÿÿÿ
+V	java:S125A"<This block of commented-out lines of code should be removed.(”Ğ¨Öıÿÿÿÿ
+J
+java:S1611B"/Remove the parentheses around the "c" parameter(õóºóüÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(õóºóüÿÿÿÿ

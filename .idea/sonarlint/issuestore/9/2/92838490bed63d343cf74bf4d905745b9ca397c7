@@ -1,0 +1,19 @@
+
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8´Œ›Ï„/
+c
+java:S2142X"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¬¤ÐÎ„/
+D
+java:S2189,""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8¨ÀöÎ„/
+Z	java:S106\"9Replace this use of System.out or System.err by a logger.(Ô˜ˆ¤ûÿÿÿÿ8¬¤ÐÎ„/
+c
+java:S2142J"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ºæåÎ„/
+V
+java:S2274I":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM8ºæåÎ„/
+Z	java:S106O"9Replace this use of System.out or System.err by a logger.(‡…“˜ýÿÿÿÿ8ºæåÎ„/
+V
+java:S2274W":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM8¬¤ÐÎ„/
+c
+java:S21420"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ƒ¤œÏ„/
+D
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8„ÌêÎ„/

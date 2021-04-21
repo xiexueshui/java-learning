@@ -1,0 +1,12 @@
+
+
+java:S1186	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ış8ı¼¿Â„/
+K
+java:S1481")Remove this unused "list" local variable.(†™öìüÿÿÿÿ8‘•ÚÂ„/
+Z
+java:S1854"8Remove this useless assignment to local variable "list".(†™öìüÿÿÿÿ8‘•ÚÂ„/
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ8‹«ÓÂ„/
+Q
+java:S3740"/Provide the parametrized type for this generic.(†™öìüÿÿÿÿ8‹«ÓÂ„/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(÷ ì²8ı¼¿Â„/

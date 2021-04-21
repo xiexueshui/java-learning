@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/20210317" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/20210318" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/20210319" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/20210322" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/20210323" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/20210324" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/20210326" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/单例模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/锁机制" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
