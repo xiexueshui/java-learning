@@ -27,12 +27,12 @@ public class PessimisticLock implements Runnable {
     }
 
     public static void main(String[] args) {
-//        Flag a = new Flag();
-//        new Thread(new PessimisticLock(a)).start();
-//        new Thread(new PessimisticLock(a)).start();
-//        new Thread(new PessimisticLock(a)).start();
-//        new Thread(new PessimisticLock(a)).start();
-//        new Thread(new PessimisticLock(a)).start();
+        Flag a = new Flag();
+        new Thread(new PessimisticLock(a)).start();
+        new Thread(new PessimisticLock(a)).start();
+        new Thread(new PessimisticLock(a)).start();
+        new Thread(new PessimisticLock(a)).start();
+        new Thread(new PessimisticLock(a)).start();
 
     }
 
