@@ -33,7 +33,7 @@ public class PessimisticLock implements Runnable {
         new Thread(new PessimisticLock(a)).start();
         new Thread(new PessimisticLock(a)).start();
         new Thread(new PessimisticLock(a)).start();
-        // aa
+        // bb
 
     }
 
