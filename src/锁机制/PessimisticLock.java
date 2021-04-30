@@ -1,9 +1,3 @@
-import javax.xml.soap.Text;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.ReentrantLock;
-
-import static javafx.scene.input.KeyCode.T;
-
 /**
  * @auther xxs
  * @date 2021-04-15
@@ -33,7 +27,10 @@ public class PessimisticLock implements Runnable {
         new Thread(new PessimisticLock(a)).start();
         new Thread(new PessimisticLock(a)).start();
         new Thread(new PessimisticLock(a)).start();
-        // aa
+
+
+
+
 
     }
 
