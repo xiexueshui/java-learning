@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/函数式接口（Lamda）" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/单例模式" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/锁机制" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/spring" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
