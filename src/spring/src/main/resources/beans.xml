@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+      "
+       xmlns:context="http://www.springframework.org/schema/context"
+>
+    <!--    使用注解注入bean-->
+    <context:annotation-config/>
+    <context:component-scan base-package="helloSpring"></context:component-scan>
+    <!--    bean配置 ：-->
+    <!--        id-唯一id-->
+    <!--        name-别名-->
+    <!--                scope-模式 ： singleton单例模式（默认） prototype原型模式-->
+
+
+    <bean id="hellwSpring0" class="helloSpring.HelloSpring">
+        <property name="name" value="hello"></property>
+    </bean>
+    <bean id="helloSpring" class="helloSpring.HelloSpring">
+        <property name="name" value="hello"></property>
+    </bean>
+    <bean name="hellwSpring1" class="helloSpring.HelloSpring">
+        <constructor-arg name="name" value="hello"></constructor-arg>
+        <constructor-arg name="code" value="spring"></constructor-arg>
+    </bean>
+    <!-- alias-别名-->
+    <alias name="hellwSpring0" alias="hello0"></alias>
+
+    <bean id="prototype" class="helloSpring.HelloSpring" scope="prototype">
+        <property name="name" value="hello"></property>
+    </bean>
+
+    <bean id="helloByName" class="helloSpring.SpringAutowire" autowire="byName">
+    </bean>
+    <bean id="springAutowire" class="helloSpring.SpringAutowire" autowire="byName">
+    </bean>
+    <bean id="hello" class="helloSpring.SpringAutowireAnnotation">
+    </bean>
+    <bean id="SpringAnnotation" class="helloSpring.SpringAnnotation">
+    </bean>
+
+</beans>
