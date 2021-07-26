@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * @auther xxs
  * @date 2021-05-11
  */
-@Component
+// @Component
 public class HelloSpring {
     private String name;
     private String code;

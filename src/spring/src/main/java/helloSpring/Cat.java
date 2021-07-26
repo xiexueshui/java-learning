@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @auther xxs
  * @date 2021-05-12
  */
-@Component
+//@Component
 public class Cat {
     @Value("cc")
     private String name;

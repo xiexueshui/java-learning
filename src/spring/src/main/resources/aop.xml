@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+      "
+       xmlns:context="http://www.springframework.org/schema/context"
+>
+    <bean id="getUserService" class="aop.UserServiceImpl"></bean>
+    <bean id="beforeLog" class="aop.beforrLog"></bean>
+    <bean id="afterLog" class="aop.afterLog"></bean>
+    <bean id="log" class="aop.log"></bean>
+
+
+    <aop:config>
+        <!--第一种使用aop:advisor实现aop-->
+        <!--切入点 expression:表达式匹配要执行的方法-->
+        <aop:pointcut id="pointcut" expression="execution(* aop.UserServiceImpl.*(..))"/>
+        <aop:advisor advice-ref="afterLog" pointcut-ref="pointcut"></aop:advisor>
+        <aop:advisor advice-ref="beforeLog" pointcut-ref="pointcut"></aop:advisor>
+
+        <!--第二种使用aop:aspect实现aop-->
+        <aop:aspect ref="log">
+            <aop:pointcut id="pointcut" expression="execution(* aop.UserServiceImpl.*(..))"/>
+            <aop:after method="after" pointcut-ref="pointcut" ></aop:after>
+            <aop:before method="before" pointcut-ref="pointcut" ></aop:before>
+        </aop:aspect>
+    </aop:config>
+
+<!--    第三种使用注解开发-->
+    <bean id="logByAspect" class="aop.logByAspect"></bean>
+<!--    开启注解配置-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+</beans>

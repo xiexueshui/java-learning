@@ -1,5 +1,6 @@
 package helloSpring.javaConfig;
 
+import aop.UserServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -14,8 +15,8 @@ import org.springframework.context.annotation.Configuration;
  * @ComponentScan相当于  <context:annotation-config/>
  *  @Bean相当于<bean></bean>
  */
-@Configuration
-@ComponentScan("helloSpring.javaConfig")
+ @Configuration
+ @ComponentScan({"helloSpring.javaConfig","aop.UserServiceImpl"})
 public class config {
 
     /**
@@ -27,4 +28,12 @@ public class config {
     public Dog getDog(){
         return new Dog();
     }
+
+    @Bean
+    public UserServiceImpl getUserService(){
+        return new UserServiceImpl();
+    }
+
+    
+
 }
